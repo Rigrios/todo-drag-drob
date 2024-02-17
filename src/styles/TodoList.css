@@ -74,5 +74,5 @@
 
 .button_active {
   filter: drop-shadow(2px 2px 5px rgba(0, 255, 200, 0.284));
-  color: rgb(202, 248, 216);
+  color: rgb(201, 248, 216);
 }
