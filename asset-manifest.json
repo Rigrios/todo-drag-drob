@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/todo-drag-drob/static/css/main.77bf78c0.css",
+    "main.css": "/todo-drag-drob/static/css/main.14000939.css",
     "main.js": "/todo-drag-drob/static/js/main.3ea3a9f2.js",
     "index.html": "/todo-drag-drob/index.html",
-    "main.77bf78c0.css.map": "/todo-drag-drob/static/css/main.77bf78c0.css.map",
+    "main.14000939.css.map": "/todo-drag-drob/static/css/main.14000939.css.map",
     "main.3ea3a9f2.js.map": "/todo-drag-drob/static/js/main.3ea3a9f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.77bf78c0.css",
+    "static/css/main.14000939.css",
     "static/js/main.3ea3a9f2.js"
   ]
 }
