@@ -1,0 +1,52 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  gap: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  color: rgb(120, 120, 120);
+}
+
+.header__body h1 {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(231, 231, 231, 0.93) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.197),
+    -1px -1px 3px rgba(0, 0, 0, 0.18);
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.header__body h3 {
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(231, 231, 231, 0.93) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.197),
+    -1px -1px 3px rgba(0, 0, 0, 0.18);
+  padding: 5px;
+  border-radius: 20px;
+}

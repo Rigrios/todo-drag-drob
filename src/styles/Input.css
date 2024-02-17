@@ -1,0 +1,39 @@
+.button {
+  background-color: #141414;
+  padding: 5px;
+  display: flex;
+  color: rgb(117, 117, 117);
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.562),
+    -1px -1px 3px rgba(0, 0, 0, 0.529);
+  transition: all 0.2s;
+}
+
+.input-create-todo-list {
+  display: flex;
+}
+
+.input-create-todo-list input {
+  background-color: #111111;
+  outline: none;
+  color: rgb(138, 138, 138);
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.562),
+    -1px -1px 3px rgba(0, 0, 0, 0.529);
+}
+
+.input-create-todo-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.error {
+  filter: drop-shadow(8px 8px 16px rgb(255, 0, 81));
+}
+
+.button:hover {
+  box-shadow: none;
+}

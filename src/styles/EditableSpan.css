@@ -1,0 +1,13 @@
+.edit-input {
+  width: 120px;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  color: rgb(146, 146, 146);
+  border-radius: 10px;
+  border: none;
+  border: 1px solid rgb(60, 73, 94);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+}

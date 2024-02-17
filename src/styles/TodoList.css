@@ -1,0 +1,78 @@
+.todo-list {
+  width: 200px;
+  height: 300px;
+  margin-top: 100px;
+  border: 8px solid #223243;
+  box-shadow: -5px -5px 15px rgb(255, 255, 255, 0.1),
+    5px 5px 15px rgb(0, 0, 0, 0.35),
+    inset -5px -5px 15px rgb(255, 255, 255, 0.1),
+    inset 5px 5px 15px rgb(0, 0, 0, 0.35);
+  padding: 30px;
+  border-radius: 20px;
+  color: rgb(144, 144, 144);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+}
+.flex-button-el {
+  align-self: center;
+}
+
+.todo-list .button {
+  align-items: end;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  gap: 2px;
+}
+
+.tasks {
+  flex: 1 1 auto;
+  cursor: grab;
+}
+
+.task-button {
+  display: flex;
+  background-color: #1d1d1d;
+  color: rgb(145, 1, 1);
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.562),
+    -1px -1px 3px rgba(0, 0, 0, 0.529);
+  padding: 2px;
+}
+
+.task_Done {
+  opacity: 0.5;
+}
+
+.sort-navigation {
+  display: flex;
+  gap: 10px;
+}
+
+.button2 {
+  background-color: #0429395f;
+  padding: 5px;
+  display: flex;
+  color: rgb(117, 117, 117);
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.562),
+    -1px -1px 3px rgba(0, 0, 0, 0.529);
+}
+
+.button_active {
+  filter: drop-shadow(2px 2px 5px rgba(0, 255, 200, 0.284));
+  color: rgb(207, 248, 216);
+}
